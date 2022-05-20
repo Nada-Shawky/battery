@@ -1,0 +1,302 @@
+/*fonts
+====================*/
+@font-face {
+  font-family: "Din-Medium";
+  src: url("../vendor/fonts/din-next-lt-w23-medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Din-Regular";
+  src: url("../vendor/fonts/din-next-lt-w23-regular.ttf");
+  font-weight: bold;
+}
+/*body
+===========================*/
+body {
+  font-family: "Din-Regular";
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #252829;
+  font-family: "Din-Medium";
+  background-color: #F8F9FA;
+}
+
+/* Links
+==========================*/
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/* Headings
+========================== */
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  margin: 0;
+  font-family: "Din-Medium";
+}
+
+p {
+  margin: 0;
+}
+
+.text-light {
+  font-family: "Din-Regular" !important;
+}
+
+.text-bold {
+  font-family: "Din-Medium" !important;
+}
+
+/*Lists
+==========================*/
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*class
+==================*/
+
+.navbar-collapse a{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 0 0.2rem;
+  transition: all 0.3s ease-in-out;
+  color: white !important;
+}
+
+.collapse ul{
+  float: right;
+}
+
+.collapse ul li{
+  float: left;
+}
+.navbar-collapse a{
+  transition: all 0.5s ease-in-out  ;
+}
+.navbar-collapse a:hover{
+  filter: brightness(20);
+}
+
+.collapse .line button{
+  margin-left: 12px;
+      width: 85%;
+      height: 5px;
+      background:none;
+      border-radius: 22px;
+      position: relative;
+      border: none;
+}
+.collapse .line button::after{
+  content: "";
+  background-color:#FDC134;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  border-radius: 22px;
+  transition: all 0.3s ease-in-out;
+}
+.collapse .line:hover button:after{
+  width: 100%;
+}
+
+
+
+/*===================    slider ====================== */
+.carousel-indicators [data-bs-target]{
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50%;
+  opacity: 1;
+}
+.carousel-indicators [data-bs-target].active{
+  background-color: #DCA022 !important;
+}
+
+.slide{
+  position: relative;
+}
+
+.slide .prag {
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 16%;
+}
+.slide .prag h1{
+  font-size: 70px;
+}
+
+/*=================    sec3     ===================*/
+.sec3{padding-top: 10rem; }
+  .color{
+      position: relative;
+  }
+  .color h1{
+    font-size: 55px;
+  }
+  .color .img{
+    padding-top: 1rem;
+  }
+  .text {
+    position: absolute;
+    top: 7%;
+    padding-left: 35px;
+  }
+  .text h2{
+      font-size: 27px;
+  }
+  .text h1{
+    font-size: 60px;
+    padding-left: 15px;
+  }
+  .button{
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+  }
+   .but{
+    border: none;
+    padding: 16px 25px 10px;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+   .icon i{
+    background-color: #FDC134;
+      border: none;
+      border-radius: 0px 20px 20px 0px;
+      padding: 10px 15px 16px;
+      font-size: 27px;
+      color: white;
+      margin-left: -22px;
+  }
+  
+   .icon1{
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+  }
+  .icon1 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+  }
+ .icon1:hover{
+    background-color: #DCA022;
+    color: white;
+  }
+ .icon1 p{
+    margin: auto;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+
+.sec4 {
+  clear: both;
+}
+.sec5{
+  overflow: hidden;
+  padding-bottom: 12rem;
+}
+
+
+.hr{
+  width: 100%;
+  height: 1px;
+  background-color:#252829;
+  margin-top: 6rem;
+}
+/*=====================       final      ===========================*/
+footer{
+  background-image: url("https://18650egy.surge.sh/images/footer.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  margin-top: 5rem;
+}
+footer .klam {
+  width: 50%;
+  float: left;
+  margin-top: 11rem;
+}
+footer .klam .part{
+  padding-bottom: 20px;
+}
+footer .klam .part:hover img{
+  cursor: pointer;
+  filter: none;
+}
+footer .klam .part:hover p{
+  color: #FDC134;
+  cursor: pointer;
+}
+footer .klam .part img{
+  filter: brightness(20);
+  transition: all 0.3s ease-in-out;
+}
+footer .klam .part p{
+  color: white;
+  font-size: 40px;
+  margin-top: -40px;
+  padding-left: 45px;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .logo {
+  float: right;
+  margin-top: 13rem;
+}
+footer .logo h1{
+  padding-top: 40px;
+  color: white;
+}
+footer .logo div{
+  background: white;
+  border-radius: 15px;
+  display: inline-block;
+  width: 48%;
+  transition: all 0.3s ease-in-out;
+}
+footer .logo div img{
+  margin-left: 5rem;
+  padding: 9px;
+  transition: all 0.3s ease-in-out;
+}
+footer .logo div:hover{
+  background-color: #FDC134;
+  cursor: pointer;
+}
+footer .logo div:hover img{
+  filter: invert(1);
+}
+
+.end{
+  background-color: #15171A;
+}
+.end div{
+  display: inline-block;
+  font-size: 22px;
+  color: white;
+  padding: 20px;
+}
+.end div:nth-child(2){
+  float: right;
+}
+
+
+
+
+/*# sourceMappingURL=style.css.map */

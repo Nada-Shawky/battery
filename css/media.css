@@ -1,0 +1,140 @@
+@media (max-width: 1199px) {
+ 
+}
+@media (max-width: 991px) {
+    .navbar-collapse a {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    .navbar-collapse a{
+        text-align: center;
+    }
+    .navbar-collapse ul{
+        margin: auto !important;
+    }
+    .slide .prag h1{
+        font-size: 47px;
+    }
+    .color{
+        display: none;
+    }
+    
+}
+@media (max-width: 767px) {
+    .container{
+        width: 100% !important;
+    }
+    .navbar-collapse a {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    .navbar-collapse a{
+        text-align: center;
+    }
+    .navbar-collapse ul{
+        margin: auto !important;
+    }
+    .color{
+        display: none;
+    }
+    footer .klam .part p{
+        font-size: 27px;
+    }
+    footer .klam{
+        margin-top: 4rem;
+    }
+    footer .klam .part img{
+        margin-top: -23px;
+    }
+    footer .logo{
+        float: none;
+    }
+    .slide .prag h1{
+        font-size: 30px;
+    }
+    .slide .prag h1{
+        font-size: 47px;
+    }
+    
+    
+    
+}
+@media (max-width: 565px) {
+    .container{
+        width: 100% !important;
+    }
+    .navbar-collapse a  {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+ 
+    }
+    .navbar-collapse a{
+        text-align: center;
+    }
+    .navbar-collapse ul{
+        margin: auto !important;
+    }
+    .icon12{
+        display: none;
+    }
+    .color{
+        display: none;
+    }
+    footer .klam .part p{
+        font-size: 27px;
+    }
+    footer .klam{
+        margin-top: 4rem;
+    }
+    footer .klam .part img{
+        margin-top: -23px;
+    }
+    footer .logo{
+        float: none;
+    }
+    .slide .prag h1{
+        font-size: 28px;
+    }
+    .end div{
+        display: block;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .end div:nth-child(2){
+        float: left;
+        margin-top: -20px;
+        padding-top:0 ;
+      }
+}
+@media (max-width: 350px) {
+    .container{
+        width: 100% !important;
+    }
+    .icon12{
+        display: none;
+    }
+    .color{
+        display: none;
+    }
+    .slide .prag h1{
+        font-size: 28px;
+    }
+    .slide .prag h1{
+        font-size: 25px;
+    }
+    .end div{
+        display: block;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .end div:nth-child(2){
+        float: left;
+        margin-top: -20px;
+        padding-top:0 ;
+      }
+      .slide .prag h1{
+        font-size: 15px;
+    }
+}
+
+/*# sourceMappingURL=media.css.map */
